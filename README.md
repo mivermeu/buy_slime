@@ -1,16 +1,48 @@
-# buy_slime
+# Buy Slime
 
-A new Flutter project.
+A shopping list application that helps your shopping experience by ordering the items as you need so you can buy all the slime you want.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (^3.8.1)
+- Dart SDK
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+   ```bash
+   git clone <your-repo-url>
+   cd buy_slime
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+### Building for Release
+
+```bash
+# Android APK
+flutter build apk --release
+
+# iOS (requires Xcode)
+flutter build ios --release
+```
+
+## Testing
+
+Run the test suite:
+
+```bash
+flutter test
+```
